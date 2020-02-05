@@ -1,5 +1,4 @@
 /**
- *
  * Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
  * the European Commission - subsequent versions of the EUPL (the "Licence");
  * You may not use this work except in compliance with the Licence.
@@ -84,6 +83,8 @@ public class Config
   public final static String PROVA_PLUGINS_OUTPUT_WEB                       = "prova.plugins.out.web";                      // String,    Active output plug-in for web
   public final static String PROVA_PLUGINS_OUTPUT_SOAP_PACKAGE              = "prova.plugins.out.soap.package";             // String,    Active output plug-in for soap
   public final static String PROVA_PLUGINS_OUTPUT_SOAP                      = "prova.plugins.out.soap";                     // String,    Active output plug-in for soap
+  public final static String PROVA_PLUGINS_OUTPUT_SOAP_PROXYHOST            = "prova.plugins.out.soap.proxyhost";           // String,    proxyhost for soap
+  public final static String PROVA_PLUGINS_OUTPUT_SOAP_PROXYPORT            = "prova.plugins.out.soap.proxyport";           // String,    proxyport for soap
   public final static String PROVA_PLUGINS_OUTPUT_DB_PACKAGE                = "prova.plugins.out.db.package";               // String,    Active output plug-in for db
   public final static String PROVA_PLUGINS_OUTPUT_DB                        = "prova.plugins.out.db";                       // String,    Active output plug-in for db
   public final static String PROVA_PLUGINS_OUTPUT_DB_DRIVER                 = "prova.plugins.out.db.driver";                // String,    Active output plug-in for db
